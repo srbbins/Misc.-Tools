@@ -1,0 +1,13 @@
+
+import pyodbc
+
+##cnxn = pyodbc.connect("driver={####};server=####;database=####;trusted_connection=yes")
+###This is the connection. The trusted connection option should allow for Windows Authentication.
+##see pyodbc wiki for details
+##cursor=cnxn.cursor()
+##for row in csvList
+##cursor.execute("INSERT INTO test ("+)")
+###not 100% on the syntax here
+##cnxn.commit()
+###probably not necessary since this isn't technically a transaction
+##cnxn.close()
